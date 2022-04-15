@@ -7,6 +7,9 @@ const server = http.createServer(app);
 const io = require("socket.io")(server);
 
 app.use(express.static(path.join(__dirname + "/strona")));
+app.get('*',(req,res) =>{
+    app.redirect(301, "/#404")
+})
 
 io.on("connection", function (socket) {
     socket.on("newuser", function (username) {
