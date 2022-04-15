@@ -8,12 +8,15 @@ const io = require("socket.io")(server);
 
 app.use(express.static(path.join(__dirname + "/strona")));
 
+app.listen(process.env.PORT || 3000, 
+	() => console.log("Server is running..."));
+
 io.on("connection", function (socket) {
     socket.on("newuser", function (username) {
-        socket.broadcast.emit("update", username + " joined the conversation")
+        socket.broadcast.emit("update", "Użytkownik" + username + " dołączył do czatu")
     })
     socket.on("exiting", function (username) {
-        socket.broadcast.emit("update", username + " exited the conversation")
+        socket.broadcast.emit("update", "Użytkownik" + username + " opuścił czat")
     })
     socket.on("chat", function (message) {
         socket.broadcast.emit("chat", message)
