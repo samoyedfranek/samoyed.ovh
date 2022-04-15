@@ -75,7 +75,7 @@ function stats() {
         }
     });
 }
-function stats() {
+function error() {
     if (location.href.includes("#404")) {
         const app = document.querySelector(".home_content");
         app.innerHTML = `<iframe width="100%" height="100%" frameBorder="0" src="404.html"></iframe>`;
@@ -94,3 +94,4 @@ pastebin()
 papa()
 czat()
 stats()
+error()
