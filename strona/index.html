@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <title> Franek.ga </title>
+    <link rel="stylesheet" href="/css/SideBar.css">
+    <link rel="stylesheet" href="/css/Main.css">
+    <link rel="stylesheet" href="/css/Home.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <center><div class="home_content">
+    Strona jest nadal w trakcie budowy a to jest tylko wersja poglądowa
+    </div></center>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bxs-dog'></i>
+                <div class="logo_name">Franek.ga</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <i class='bx bx-search'></i>
+                <input id="szukaj" class="search" on="search()" type="text" placeholder="Szukaj.....">
+                <span class="tooltip">Wyszukaj</span>
+            </li>
+            <li>
+                <a href="index.html">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Panel Główny</span>
+                </a>
+                <span class="tooltip">Panel Główny</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cut'></i>
+                    <span class="links_name">Skracacz Linków</span>
+                </a>
+                <span class="tooltip">Skracacz Linków</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-code-alt'></i>
+                    <span class="links_name">Mój Pastebin</span>
+                </a>
+                <span class="tooltip">Mój Pastebin</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-speaker'></i>
+                    <span class="links_name">Ile do papieżowej</span>
+                </a>
+                <span class="tooltip">Ile do papieżowej</span>
+            </li>
+            <li>
+                <a href="#czat">
+                    <i class='bx bx-chat'></i>
+                    <span class="links_name">Czat</span>
+                </a>
+                <span class="tooltip">Czat</span>
+            </li>
+            <li>
+                <a href="#statystyki">
+                    <i class='bx bx-line-chart'></i>
+                    <span class="links_name">Statystyki</span>
+                </a>
+                <span class="tooltip">Statystyki</span>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="/img/profile.png" alt="">
+                    <div class="name_job">
+                        <div class="name">Gość</div>
+                        <div class="job">Brak danych</div>
+                    </div>
+                </div>
+                <a href="exit.html">
+                    <i class='bx bx-log-out' id="log_out"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skrypty js -->
+    <!-- Skrypt od guzików bocznych -->
+    <script src="/js/sidebarbuttons.js"></script>
+
+    <!-- Skrypt od lewego menu-->
+    <script src="/js/sidebar.js"></script>
+
+    <!-- Skrypt do sprawdzania rozdzielczości-->
+    <script src="/js/resindex.js"></script>
+
+    <!-- Skrypt od searchboxa -->
+    <script src="/js/searchbox.js"></script>
+    <!-- Skrypty js koniec-->
+</body>
+
+</html>
