@@ -1,5 +1,4 @@
 (function () {
-    const io = require("socket.io")(server);
     const app = document.querySelector(".app");
     const socket = io();
 
