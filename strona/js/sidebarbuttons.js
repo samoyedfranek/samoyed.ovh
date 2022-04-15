@@ -1,12 +1,12 @@
 function dom() {
     if (location.href.includes("#dom")) {
         const app = document.querySelector(".home_content");
-        app.innerHTML = `Strona jest nadal w trakcie budowy a to jest tylko wersja poglądowa`;
+        app.innerHTML = `<div class="text">Strona jest nadal w trakcie budowy a to jest tylko wersja poglądowa</div>`;
     }
     addEventListener("hashchange", e => {
         if (location.href.includes("#dom")) {
             const app = document.querySelector(".home_content");
-            app.innerHTML = `Strona jest nadal w trakcie budowy a to jest tylko wersja poglądowa`;
+            app.innerHTML = `<div class="text">Strona jest nadal w trakcie budowy a to jest tylko wersja poglądowa</div>`;
         }
     });
 }
@@ -14,12 +14,12 @@ function dom() {
 function skracacz() {
     if (location.href.includes("#skracacz")) {
         const app = document.querySelector(".home_content");
-        app.innerHTML = `W trakcie budowy`;
+        app.innerHTML = `<div class="text">W trakcie budowy</div>`;
     }
     addEventListener("hashchange", e => {
         if (location.href.includes("#skracacz")) {
             const app = document.querySelector(".home_content");
-            app.innerHTML = `W trakcie budowy`;
+            app.innerHTML = `<div class="text">W trakcie budowy</div>`;
         }
     });
 }
@@ -27,12 +27,12 @@ function skracacz() {
 function pastebin() {
     if (location.href.includes("#pastebin")) {
         const app = document.querySelector(".home_content");
-        app.innerHTML = `W trakcie budowy`;
+        app.innerHTML = `<div class="text">W trakcie budowy</div>`;
     }
     addEventListener("hashchange", e => {
         if (location.href.includes("#pastebin")) {
             const app = document.querySelector(".home_content");
-            app.innerHTML = `W trakcie budowy`;
+            app.innerHTML = `<div class="text">W trakcie budowy</div>`;
         }
     });
 }
@@ -40,12 +40,12 @@ function pastebin() {
 function papa() {
     if (location.href.includes("#2137")) {
         const app = document.querySelector(".home_content");
-        app.innerHTML = `W trakcie budowy`;
+        app.innerHTML = `<iframe width="100%" height="100%" frameBorder="0" src="timer.html"></iframe>`;
     }
     addEventListener("hashchange", e => {
         if (location.href.includes("#2137")) {
             const app = document.querySelector(".home_content");
-            app.innerHTML = `W trakcie budowy`;
+            app.innerHTML = `<iframe width="100%" height="100%" frameBorder="0" src="timer.html"></iframe>`;
         }
     });
 }
@@ -66,16 +66,27 @@ function czat() {
 function stats() {
     if (location.href.includes("#statystyki")) {
         const app = document.querySelector(".home_content");
-        app.innerHTML = `W trakcie budowy`;
+        app.innerHTML = `<div class="text">W trakcie budowy</div>`;
     } 
     addEventListener("hashchange", e => {
         if (location.href.includes("#statystyki")) {
             const app = document.querySelector(".home_content");
-            app.innerHTML = `W trakcie budowy`;
+            app.innerHTML = `<div class="text">W trakcie budowy</div>`;
         }
     });
 }
-
+function stats() {
+    if (location.href.includes("#404")) {
+        const app = document.querySelector(".home_content");
+        app.innerHTML = `<iframe width="100%" height="100%" frameBorder="0" src="404.html"></iframe>`;
+    } 
+    addEventListener("hashchange", e => {
+        if (location.href.includes("#404")) {
+            const app = document.querySelector(".home_content");
+            app.innerHTML = `<iframe width="100%" height="100%" frameBorder="0" src="404.html"></iframe>`;
+        }
+    });
+}
 
 dom()
 skracacz()
