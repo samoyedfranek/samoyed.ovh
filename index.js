@@ -1,4 +1,5 @@
-const express = require("express")  , http = require('http');;
+const express = require("express"),
+    http = require('http');;
 const path = require("path")
 
 const app = express()
@@ -7,8 +8,9 @@ const server = http.createServer(app);
 const io = require("socket.io")(server);
 
 app.use(express.static(path.join(__dirname + "/strona")));
-app.get('*',(req,res) =>{
-    app.redirect(301, "/#404")
+
+app.get('*', (req, res) => {
+    res.redirect(301, '/#404')
 })
 
 io.on("connection", function (socket) {
