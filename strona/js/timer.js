@@ -18,7 +18,7 @@
         var ss = pad(remain % 60);
 
         const time = hh + ":" + mm + ":" + ss;
-        if (now.getHours() == 19 && now.getMinutes() == 35) {
+        if (now.getHours() == 21 && now.getMinutes() == 37) {
             document.getElementsByTagName("body")[0].classList.add("papiezowa");
             document.getElementById("time").innerText = "";
         } else {
