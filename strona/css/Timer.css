@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 * {
     margin: 0px;
@@ -25,4 +25,32 @@ h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.papiezowa {
+    animation: change 2s infinite;
+    cursor: url(https://api8.iloveimg.com/v1/download/nxbwpp8zynk26qtd9scjch2w48gn0h733qnssrws0t8193rhvh5drmAgrkg44hrj4m72dl0vAjzstkz8l08c91AdAx61g912wqAqjql1sA5zdj1rn7vdzlvw9mvht285b6nArqkkn466b2034gdxjA5jqy6jt9p87gxv6vjwfA8wbd1wk8k1),
+        auto;
+}
+
+@keyframes change {
+    0% {
+        background-color: #1abc9c;
+    }
+
+    25% {
+        background-color: #2ecc71;
+    }
+
+    50% {
+        background-color: #3498db;
+    }
+
+    75% {
+        background-color: #9b59b6;
+    }
+
+    100% {
+        background-color: #e75c3c;
+    }
 }
