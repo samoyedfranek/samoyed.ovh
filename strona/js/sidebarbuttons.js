@@ -14,12 +14,12 @@ function dom() {
 function skracacz() {
     if (location.href.includes("#skracacz")) {
         const app = document.querySelector(".home_content");
-        app.innerHTML = `<div class="text">W trakcie budowy</div>`;
+        app.innerHTML = `<iframe width="100%" height="100%" frameBorder="0" src="short.html"></iframe>`;
     }
     addEventListener("hashchange", e => {
         if (location.href.includes("#skracacz")) {
             const app = document.querySelector(".home_content");
-            app.innerHTML = `<div class="text">W trakcie budowy</div>`;
+            app.innerHTML = `<iframe width="100%" height="100%" frameBorder="0" src="short.html"></iframe>`;
         }
     });
 }
