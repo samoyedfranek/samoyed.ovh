@@ -10,23 +10,56 @@
     <link rel="stylesheet" href="/css/Home.css">
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P193009HF8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-P193009HF8');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5XDT8VP');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
-    <div id="home_content" class="home_content">
-        <div class="text">Strona jest nadal w trakcie budowy a to jest tylko wersja poglądowa</div>
-    </div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XDT8VP" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="sidebar">
         <div class="logo_content">
-            <div class="logo">
-                <i class='bx bxs-dog'></i>
-                <div class="logo_name">Franek.ga</div>
-            </div>
+            <a href="https://discord.gg/tPrEPhCB38">
+                <div class="logo">
+                    <i class='bx bxs-dog'></i>
+                    <div class="logo_name">Franek.ga</div>
+                </div>
+            </a>
             <i class='bx bx-menu' id="btn"></i>
         </div>
         <ul class="nav_list">
             <li>
-<i class='bx bx-search'></i>
+                <i class='bx bx-search'></i>
                 <input id="szukaj" class="search" on="search()" type="text" placeholder="Szukaj.....">
                 <span class="tooltip">Wyszukaj</span>
             </li>
@@ -87,6 +120,47 @@
                 </a>
             </div>
         </div>
+    </div>
+    <div id="home_content" class="home_content">
+        <div class="cardBox">
+            <div class="card">
+                <div>
+                    <div class="numbers">Liczba</div>
+                    <div class="cardName">Tekst</div>
+                </div>
+                <div class="iconBx">
+                    <i class='bx bxl-steam' ></i>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">Liczba</div>
+                    <div class="cardName">Tekst</div>
+                </div>
+                <div class="iconBx">
+                    <i class='bx bxl-youtube' ></i>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">Liczba</div>
+                    <div class="cardName">Tekst</div>
+                </div>
+                <div class="iconBx">
+                    <i class='bx bxl-discord-alt' ></i>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">Liczba</div>
+                    <div class="cardName">Tekst</div>
+                </div>
+                <div class="iconBx">
+                    <i class='bx bxl-twitch' ></i>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     <!-- Skrypty js -->
     <!-- Skrypt od guzików bocznych -->

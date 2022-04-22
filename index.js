@@ -12,6 +12,7 @@ app.use(cors());
 app.get('*', (req, res) => {
     res.redirect(301, '/#404')
 })
+
 // Chat
 
 io.on("connection", function (socket) {

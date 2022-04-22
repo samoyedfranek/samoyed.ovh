@@ -1,12 +1,12 @@
 function dom() {
     if (location.href.includes("#dom")) {
         const app = document.querySelector(".home_content");
-        app.innerHTML = `<div class="text">Strona jest nadal w trakcie budowy a to jest tylko wersja poglądowa</div>`;
+        window.open(`index.html`, '_self');
     }
     addEventListener("hashchange", e => {
         if (location.href.includes("#dom")) {
             const app = document.querySelector(".home_content");
-            app.innerHTML = `<div class="text">Strona jest nadal w trakcie budowy a to jest tylko wersja poglądowa</div>`;
+            window.open('index.html', '_self');
         }
     });
 }
