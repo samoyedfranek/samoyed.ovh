@@ -109,3 +109,10 @@
         messageContainer.scrollTop = messageContainer.scrollHeight - messageContainer.clientHeight
     }
 })();
+(function () {
+("#nazwa").keypress(function() {
+    if($(this).val().length > 12) {
+        document.querySelector(".error").innerHTML('<label style="color: red">Nazwa użytkownika</label>')
+   }
+});
+});
