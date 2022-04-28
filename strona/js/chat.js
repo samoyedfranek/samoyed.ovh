@@ -109,10 +109,15 @@
         messageContainer.scrollTop = messageContainer.scrollHeight - messageContainer.clientHeight
     }
 })();
-(function () {
-("#nazwa").keypress(function() {
-    if($(this).val().length > 12) {
-        document.querySelector(".error").innerHTML('<label style="color: red">Nazwa użytkownika</label>')
-   }
-});
-});
+let t = document.getElementById('username');
+t.addEventListener('input', (event) => {
+    if (document.querySelector("#username").value.length === 12) {
+    document.querySelector(".error").innerHTML= '<label style="color: red">Osiągnięto limit znaków!</label>'
+}else 
+document.querySelector(".error").innerHTML= ''
+})
+let tt = document.getElementById('message-input');
+tt.addEventListener('input', (event) => {
+    if (document.querySelector("#message-input").value.length === 128) {
+    alert('Osiągnięto limit znaków!')
+}})
