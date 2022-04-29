@@ -28,4 +28,4 @@
 
 *   Wkrótce
 
-[![portfolio](https://www.coolgenerator.com/Data/Textdesign/202204/4be1f3b940651eb0db294c7e3f9be82f.png)](https://franek.ga/#listazmian)
+[![portfolio](https://www.coolgenerator.com/Data/Textdesign/202204/caf85ea25e0da6a7d9abf2465f7445e2.png)](https://franek.ga/#listazmian)
