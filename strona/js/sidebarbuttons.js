@@ -1,12 +1,12 @@
 function dom() {
     if (location.href.includes("#dom")) {
         const app = document.querySelector(".home_content");
-        window.open(`index.html`, '_self');
+        window.open('https://franek.ga/', '_self');
     }
     addEventListener("hashchange", e => {
         if (location.href.includes("#dom")) {
             const app = document.querySelector(".home_content");
-            window.open('index.html', '_self');
+            window.open('https://franek.ga/', '_self');
         }
     });
 }
@@ -87,7 +87,20 @@ function error() {
         }
     });
 }
+function changelog() {
+    if (location.href.includes("#listazmian")) {
+        const app = document.querySelector(".home_content");
+        app.innerHTML = `<iframe width="100%" height="100%" frameBorder="0" src="listazmian.html"></iframe>`;
+    } 
+    addEventListener("hashchange", e => {
+        if (location.href.includes("#listazmian")) {
+            const app = document.querySelector(".home_content");
+            app.innerHTML = `<iframe width="100%" height="100%" frameBorder="0" src="listazmian.html"></iframe>`;
+        }
+    });
+}
 
+changelog()
 dom()
 skracacz()
 pastebin()

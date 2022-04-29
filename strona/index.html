@@ -123,15 +123,17 @@
     </div>
     <div id="home_content" class="home_content">
         <div class="firstCard">
+            <a href="#listazmian">
             <div class="card">
                 <div>
                     <div class="numbers">O mnie</div>
-                    <div class="cardName">Siemka, jestem Franek a to jest moja pierwsza strona internetowa na której będzie wszystko od filmów z kin do gali fame itp. itd. 😁</div>
+                    <div class="cardName">Siemka, jestem Franek a to jest moja pierwsza strona internetowa na której będzie wszystko od filmów z kin do gali fame itp. itd. 😁 (Po kliknięciu pojawi się lista zmian!)</div>
                 </div>
                 <div class="iconBx">
                     <i class='bx bxs-dog' ></i>
                 </div>
             </div>
+            </a>
         </div>
         <div class="cardBox">
             <a href="https://steamcommunity.com/id/samoyedfranek/">
@@ -155,6 +157,7 @@
                     <i class='bx bxl-twitch' ></i>
                 </div>
             </div>
+            </a>
             <a href="https://www.youtube.com/channel/UCm85GFqdoywjqZOKrWSQwJg">
             <div class="card">
                 <div>
@@ -165,6 +168,7 @@
                     <i class='bx bxl-youtube' ></i>
                 </div>
             </div>
+            </a>
             <a href="https://discord.gg/tPrEPhCB38">
             <div class="card">
                 <div>
@@ -175,6 +179,7 @@
                     <i class='bx bxl-discord' ></i>
                 </div>
             </div>
+            </a>
             <a href="enjoy.html">
             <div class="card">
                 <div>
@@ -185,6 +190,7 @@
                     <i class='bx bx-folder' ></i>
                 </div>
             </div>
+            </a>
             <a href="https://replit.com/">
                 <div class="card">
                     <div>
@@ -192,14 +198,22 @@
                         <div class="cardName">Replit</div>
                     </div>
                     <div class="iconBx">
-                        <span class='icon-replit'></span>
+                        <p>r</p>
                     </div>
                 </div>
+            </div>
+            </a>
         </div>
     </div>
-    </div>
     <!-- Skrypty js -->
-
+    <!-- Skrypt od danych -->
+    <script>    
+    function getIP(json) {
+        document.querySelector('.job').innerHTML = json.ip;
+    }
+    </script>
+    <script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+    <script src="/js/data.js"></script>
     <!-- Skrypt od guzików bocznych -->
     <script src="/js/sidebarbuttons.js"></script>
 
