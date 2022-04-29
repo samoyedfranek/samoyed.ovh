@@ -28,4 +28,5 @@
 
 *   Wkrótce
 
+##### Dostępna także na stronie!
 [![portfolio](https://www.coolgenerator.com/Data/Textdesign/202204/caf85ea25e0da6a7d9abf2465f7445e2.png)](https://franek.ga/#listazmian)
