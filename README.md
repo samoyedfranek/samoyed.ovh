@@ -1,6 +1,25 @@
-# how to find us?
+ Lista zmian - Franek.ga   
 
-we will be here:
-<figure class="video_container">
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=6.047544479370118%2C46.23053702499607%2C6.061706542968751%2C46.23821801159735&amp;layer=mapnik" style="border: 1px solid black"></iframe>
-</figure>
+##### Wersja 1.5.5 - 29 Kwiecień 2022
+
+*   Dodano wykrywanie twojego ip a także urządzenia!
+
+##### Wersja 1.5.4 - 29 Kwiecień 2022
+
+*   Usprawniono działanie strony na telefonie!
+
+##### Wersja 1.5.3 - 28 Kwiecień 2022
+
+*   Dodano częściową obsługę strony na telefonie!
+
+##### Wersja 1.5.2 - 25 Kwiecień 2022
+
+*   Ulepszono działanie czatu!
+
+##### Wersja 1.5.1 - 22 Kwiecień 2022
+
+*   Dodano kafelki na stronie głównej!
+
+##### Jestem w trakcie - dodawania reszty zmian!
+
+*   Wkrótce
