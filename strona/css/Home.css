@@ -84,6 +84,20 @@ and (orientation:landscape) {
         grid-template-columns: repeat(1,1fr);
     }
 }
+@media only screen 
+and (max-device-width : 920px)
+and (orientation:portrait) {
+    .cardBox {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen 
+and (max-device-width : 920px)
+and (orientation:landscape) {
+    .cardBox {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 .cardBox .card {
     position: relative;
     background: #fff;
