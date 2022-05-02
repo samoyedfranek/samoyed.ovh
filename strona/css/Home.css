@@ -127,7 +127,6 @@ and (orientation:landscape) {
 .cardBox .card .cardName {
     color: #11101d;
     font-size: 1.1em;
-    margin-top: 5px;
 }
 .cardBox .card .iconBx{
     color: #11101d;

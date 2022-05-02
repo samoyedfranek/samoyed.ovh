@@ -8,9 +8,10 @@ const io = require("socket.io")(server);
 
 app.use(express.static(path.join(__dirname + "/strona")))
 app.use(cors());
-app.get('*', (req, res) => {
-    res.redirect(301, '/#404')
-})
+
+app.use(function(req, res) {
+res.status(404).redirect("/#404");
+});
 
 // Chat
 
