@@ -1,5 +1,9 @@
  Lista zmian - Franek.ga   
 
+##### Wersja 1.5.7 - 2 Maja 2022
+
+* Drobne poprawki!
+
 ##### Wersja 1.5.6 - 29 Kwiecień 2022
 
 *   Dodano listę zmian do githuba a także na stronie po kliknięciu kafelka 'O mnie'!
