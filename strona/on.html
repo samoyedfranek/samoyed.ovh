@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <title> Franek.ga </title>
+    <link rel="stylesheet" href="/css/SideBar.css">
+    <link rel="stylesheet" href="/css/Main.css">
+    <link rel="stylesheet" href="/css/Home.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P193009HF8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-P193009HF8');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5XDT8VP');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XDT8VP" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="sidebar">
+        <div class="logo_content">
+            <a href="https://discord.gg/tPrEPhCB38">
+                <div class="logo">
+                    <i class='bx bxs-dog'></i>
+                    <div class="logo_name">Franek.ga</div>
+                </div>
+            </a>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <i class='bx bx-search'></i>
+                <input id="szukaj" class="search" on="search()" type="text" placeholder="Szukaj.....">
+                <span class="tooltip">Wyszukaj</span>
+            </li>
+            <li>
+                <a href="#dom">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Panel Główny</span>
+                </a>
+                <span class="tooltip">Panel Główny</span>
+            </li>
+            <li>
+                <a href="#czat">
+                    <i class='bx bx-chat'></i>
+                    <span class="links_name">Czat</span>
+                </a>
+                <span class="tooltip">Czat</span>
+            </li>
+            <li>
+                <a href="#skracacz">
+                    <i class='bx bx-cut'></i>
+                    <span class="links_name">Skracacz Linków</span>
+                </a>
+                <span class="tooltip">Skracacz Linków</span>
+            </li>
+            <li>
+                <a href="#pastebin">
+                    <i class='bx bx-code-alt'></i>
+                    <span class="links_name">Mój Pastebin</span>
+                </a>
+                <span class="tooltip">Mój Pastebin</span>
+            </li>
+            <li>
+                <a href="#2137">
+                    <i class='bx bx-time'></i>
+                    <span class="links_name">Ile do papieżowej</span>
+                </a>
+                <span class="tooltip">Ile do papieżowej</span>
+            </li>
+            <li>
+                <a href="#statystyki">
+                    <i class='bx bx-line-chart'></i>
+                    <span class="links_name">Statystyki</span>
+                </a>
+                <span class="tooltip">Statystyki</span>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="/img/profile.png" alt="">
+                    <div class="name_job">
+                        <div class="name">Gość</div>
+                        <div class="job">Brak danych</div>
+                    </div>
+                </div>
+                <a href="exit.html">
+                    <i class='bx bx-log-out' id="log_out"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="home_content" class="home_content">
+        <div class="firstCard">
+            <a href="#listazmian">
+            <div class="card">
+                <div>
+                    <div class="numbers">O mnie</div>
+                    <div class="cardName">Siemka, jestem Franek a to jest moja pierwsza strona internetowa na której będzie wszystko od filmów z kin do gali fame itp. itd. 😁 (Po kliknięciu pojawi się lista zmian!)</div>
+                </div>
+                <div class="iconBx">
+                    <i class='bx bxs-dog' ></i>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="cardBox">
+            <a href="https://steamcommunity.com/id/samoyedfranek/">
+                <div class="card">
+                <div>
+                    <div class="numbers">Steam</div>
+                    <div class="cardName">SamoyedFranek</div>
+                </div>
+                <div class="iconBx">
+                    <i class='bx bxl-steam'></i>
+                </div>
+            </div>
+            </a>
+            <a href="https://twitch.tv/samoyedfranek">
+            <div class="card">
+                <div>
+                    <div class="numbers">Twitch</div>
+                    <div class="cardName">samoyedfranek</div>
+                </div>
+                <div class="iconBx">
+                    <i class='bx bxl-twitch' ></i>
+                </div>
+            </div>
+            </a>
+            <a href="https://www.youtube.com/channel/UCm85GFqdoywjqZOKrWSQwJg">
+            <div class="card">
+                <div>
+                    <div class="numbers">Youtube</div>
+                    <div class="cardName">Samoyed Franek</div>
+                </div>
+                <div class="iconBx">
+                    <i class='bx bxl-youtube' ></i>
+                </div>
+            </div>
+            </a>
+            <a href="https://discord.gg/tPrEPhCB38">
+            <div class="card">
+                <div>
+                    <div class="numbers">Discord</div>
+                    <div class="cardName">🌻Samoyed Franek ☁#9264</div>
+                </div>
+                <div class="iconBx">
+                    <i class='bx bxl-discord' ></i>
+                </div>
+            </div>
+            </a>
+            <a href="enjoy.html">
+            <div class="card">
+                <div>
+                    <div class="numbers">Wątek na serwerze enjoy studio</div>
+                    <div class="cardName">Wymagane jest bycie na tym serwerze a także rola dev</div>
+                </div>
+                <div class="iconBx">
+                    <i class='bx bx-folder' ></i>
+                </div>
+            </div>
+            </a>
+            <a href="https://replit.com/">
+                <div class="card">
+                    <div>
+                        <div class="numbers">Hosting zapewnia</div>
+                        <div class="cardName">Replit</div>
+                    </div>
+                    <div class="iconBx">
+                        <p>r</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+    </div>
+    <!-- Skrypty js -->
+    <!-- Skrypt od danych -->
+    <script>    
+    function getIP(json) {
+        document.querySelector('.job').innerHTML = json.ip;
+    }
+    </script>
+    <script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+    <script src="/js/data.js"></script>
+    <!-- Skrypt od guzików bocznych -->
+    <script src="/js/sidebarbuttons.js"></script>
+
+    <!-- Skrypt od lewego menu-->
+    <script src="/js/sidebar.js"></script>
+
+    <!-- Skrypt do sprawdzania rozdzielczości-->
+    <script src="/js/res.js"></script>
+
+    <!-- Skrypt od searchboxa -->
+    <script src="/js/searchbox.js"></script>
+    <!-- Skrypty js koniec-->
+</body>
+
+</html>

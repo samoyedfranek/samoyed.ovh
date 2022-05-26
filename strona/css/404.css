@@ -10,8 +10,11 @@ body {
     justify-content: center;
     text-size-adjust: auto;
 }
-
+a {
+  text-decoration: none;
+}
 h1 {
+    text-decoration: none;
     margin-bottom: 20px;
     font-size: 30px;
     color: #11101d;
@@ -22,12 +25,13 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
-    color: #11101d;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: green;
+    border-bottom: 4px solid #11101d;;
     position: relative;
     top: 50%;
     overflow:hidden
 }
-a {
-    text-decoration: none;
-    }
+
