@@ -6,7 +6,7 @@ const app = express()
 const server = http.createServer(app);
 const io = require("socket.io")(server);
 
-app.use(express.static(path.join(__dirname + "/strona")))
+app.use(express.static(path.join(__dirname + "/old")))
 app.use(cors());
 
 app.use(function(req, res) {
