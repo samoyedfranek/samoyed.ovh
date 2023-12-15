@@ -27,4 +27,4 @@ io.on("connection", function (socket) {
     })
 })
 
-server.listen(process.env.PORT || 3055, () => console.log("Server działa..."))
+server.listen(process.env.PORT || 25503, () => console.log("Server działa..."))

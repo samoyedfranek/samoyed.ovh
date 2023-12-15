@@ -4,18 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samoyedgaming/samoyed.ga.git"
+    "url": "git+https://github.com/samoyedgaming/samoyed.ovh.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/samoyedgaming/samoyed.ga/issues"
+    "url": "https://github.com/samoyedgaming/samoyed.ovh/issues"
   },
-  "homepage": "https://github.com/samoyedgaming/samoyed.ga#readme",
+  "homepage": "https://github.com/samoyedgaming/samoyed.ovh#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",

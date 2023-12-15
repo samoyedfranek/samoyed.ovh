@@ -1,12 +1,12 @@
 function dom() {
     if (location.href.includes("#dom")) {
         const app = document.querySelector(".home_content");
-        window.open("https://samoyed.ga/", "_self");
+        window.open("https://samoyed.ovh/", "_self");
     }
     addEventListener("hashchange", (e) => {
         if (location.href.includes("#dom")) {
             const app = document.querySelector(".home_content");
-            window.open("https://samoyed.ga/", "_self");
+            window.open("https://samoyed.ovh/", "_self");
         }
     });
 }
