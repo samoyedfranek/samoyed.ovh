@@ -1,0 +1,26 @@
+{
+  "name": "samoyed.ovh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samoyedgaming/samoyed.ovh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samoyedgaming/samoyed.ovh/issues"
+  },
+  "homepage": "https://github.com/samoyedgaming/samoyed.ovh#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "socket.io": "^4.5.4"
+  }
+}
