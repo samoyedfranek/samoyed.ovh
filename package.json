@@ -1,26 +1,36 @@
 {
-  "name": "samoyed.ovh",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/samoyedgaming/samoyed.ovh.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/samoyedgaming/samoyed.ovh/issues"
-  },
-  "homepage": "https://github.com/samoyedgaming/samoyed.ovh#readme",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "http": "^0.0.1-security",
-    "path": "^0.12.7",
-    "socket.io": "^4.5.4"
-  }
+    "name": "samoyed.ovh",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "eslint .",
+        "preview": "vite preview",
+        "server": "vite build && serve -s dist -l 25553"
+    },
+    "dependencies": {
+        "@tailwindcss/vite": "^4.1.18",
+        "prop-types": "^15.8.1",
+        "react": "^19.2.0",
+        "react-dom": "^19.2.0",
+        "react-icons": "^5.5.0",
+        "react-infinite-scroll-component": "^6.1.1",
+        "react-masonry-css": "^1.0.16",
+        "react-responsive-masonry": "^2.7.1",
+        "react-router-dom": "^7.12.0",
+        "tailwindcss": "^4.1.18"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.39.1",
+        "@types/react": "^19.2.5",
+        "@types/react-dom": "^19.2.3",
+        "@vitejs/plugin-react": "^5.1.1",
+        "eslint": "^9.39.1",
+        "eslint-plugin-react-hooks": "^7.0.1",
+        "eslint-plugin-react-refresh": "^0.4.24",
+        "globals": "^16.5.0",
+        "vite": "^7.2.4"
+    }
 }

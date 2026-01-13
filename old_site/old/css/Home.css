@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "icomoon";
+    src: url("../fonts/icomoon.woff2"), url("../fonts/icomoon.woff"),
+        url("../fonts/icomoon.ttf"), url("../fonts/icomoon.eot");
+}
+p {
+    font-family: "icomoon";
+}
+.home_content {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 78px);
+    left: 78px;
+    transition: all 0.5s ease;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.home_content .text {
+    font-size: 25px;
+    font-weight: 500;
+    color: #1d1b31;
+    margin: 12px;
+}
+.firstCard {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
+.firstCard .card .numbers {
+    position: relative;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: #1d1b31;
+}
+.firstCard .card .cardName {
+    color: #11101d;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+.firstCard .card .iconBx {
+    color: #11101d;
+    font-size: 3.5em;
+}
+.firstCard .card:hover {
+    background: #11101d;
+}
+.firstCard .card:hover .numbers {
+    color: #fff;
+}
+.firstCard .card:hover .cardName {
+    color: #fff;
+}
+.firstCard .card:hover .iconBx {
+    color: #fff;
+}
+.card {
+    position: relative;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 2px 2px 15px -2px rgba(66, 68, 90, 1);
+}
+.cardBox {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    .cardBox {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+    .cardBox {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (max-device-width: 920px) and (orientation: portrait) {
+    .cardBox {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (max-device-width: 920px) and (orientation: landscape) {
+    .cardBox {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.cardBox .card {
+    position: relative;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 2px 2px 15px -2px rgba(66, 68, 90, 1);
+}
+.cardBox .card .numbers {
+    position: relative;
+    font-weight: 500;
+    font-size: 25px;
+    color: #1d1b31;
+}
+.cardBox .card .cardName {
+    color: #11101d;
+    font-size: 1.1em;
+}
+.cardBox .card .iconBx {
+    color: #11101d;
+    font-size: 3.5em;
+}
+.cardBox .card:hover {
+    background: #11101d;
+}
+.cardBox .card:hover .numbers {
+    color: #fff;
+}
+.cardBox .card:hover .cardName {
+    color: #fff;
+}
+.cardBox .card:hover .iconBx {
+    color: #fff;
+}
