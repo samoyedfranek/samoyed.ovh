@@ -1,23 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
-      keyframes: {
-        float: {
-          "0%, 100%": { transform: "translate(0, 0)" },
-          "50%": { transform: "translate(var(--x), var(--y))" },
-        },
-        spinSlow: {
-          "0%": { transform: "rotate(0deg)" },
-          "100%": { transform: "rotate(360deg)" },
-        },
+      colors: {
+        terminal: "#1e1e1e",
+        prompt: "#4ade80",
+        path: "#60a5fa",
+        error: "#f87171",
       },
-      animation: {
-        float: "float var(--duration) linear infinite",
-        "spin-slow": "spinSlow var(--spin-duration) linear infinite",
+      fontFamily: {
+        mono: ["JetBrains Mono", "monospace"],
       },
     },
   },
   plugins: [],
-};
+}

@@ -1,7 +1,12 @@
-export default function App() {
+import Terminal from "../components/terminal";
+
+function App() {
     return (
-        <div className="h-screen bg-black text-white">
-            <h1 className="text-4xl font-bold text-center pt-20">Welcome to samoyed.ovh</h1>
+        <div className="h-screen w-screen bg-neutral-900 p-2.5">
+            <div className="h-full w-full bg-terminal rounded-xl shadow-2xl overflow-hidden">
+                <Terminal />
+            </div>
         </div>
     );
 }
+export default App;
